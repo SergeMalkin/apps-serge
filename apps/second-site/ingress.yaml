@@ -13,6 +13,6 @@ spec:
         path: "/"
         backend:
           service:
-            name: podinfo
+            name: site-service
             port:
-              number: 9898
+              number: 8082
